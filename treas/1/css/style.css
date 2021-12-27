@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   font-family: 'Barlow', sans-serif;
+   background-image: url(/Assets/img/Background.png);
+   background-position: center;
+   height: 1000px;
+   background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comman */
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* header */
+
+header {
+    position: relative;
+}
+
+.left img {
+    position: absolute;
+    left: 135px;
+    height: 40px;
+    top: 31px;
+    width: 218px;
+}
+/* buttens */
+.btn {
+    position: absolute;
+    color: #ffff;
+    top: 27px;
+    background: #D5905C;
+    height: 52px;
+    right: 135px;
+    width: 154px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #D5905C;
+    background: transparent;
+    border-color: #D5905C;
+}
+
+/* End of Buttens  */
+
+/* Header Text */
+.text {
+    position: absolute;
+    color: #fff;
+    top: 254px;
+    left: 135px;
+}
+
+.text h1 {
+    font-size: 72px;
+}
+
+.text p {
+    margin-top: 24px;
+    font-size: 19px;
+    font-weight: 300;
+}
+/* End of Header  */
+
+/* Connect */
+
+/* Connect Coxs */
+.connect .box {
+    width: 1200px;
+    background: #24252D;
+    height: 422px;
+    top: 800px;
+    position: relative;
+
+}
+
+.connect .box-1 {
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    top: 84px;
+    left: 400px;
+    background: #D5905C;
+}
+/* End of Connect Boxs */
+
+.connect h1 {
+    position: absolute;
+    font-size: 37px;
+    font-weight: bold;
+    top: 59px;
+    color: white;
+    left: 135px;
+}
+/* Input */
+.input-wrap {
+    top: 174px;
+    left: 135px;
+    position: absolute;
+}
+
+.input-wrap .a-1, .a-2 {
+    padding: 2rem;
+    margin-left: 16px;
+    background: #2F2F36;
+    border: none;
+    width: 440px;
+    height: 73px;
+    font-size: 17px;
+
+}
+
+.input-wrap-1 {
+    position: absolute;
+
+}
+
+.input-wrap-1 .a-2 {
+    width: 0;
+}
+
+
+/* End of Input */
+
+/* End of connect */
