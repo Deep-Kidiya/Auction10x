@@ -2,7 +2,6 @@
 
 body {
    font-family: 'Barlow', sans-serif;
-   background-image: url(/Assets/img/Background.png);
    background-position: center;
    height: 1000px;
    background-repeat: no-repeat;
@@ -31,11 +30,19 @@ body {
 /* header */
 
 header {
-    position: relative;
+    position: absolute;
+    width: 100%;
+}
+
+.banner {
+    background-image: url(/Assets/img/Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .left img {
-    position: absolute;
+    position: relative;
     left: 135px;
     height: 40px;
     top: 31px;
@@ -43,14 +50,10 @@ header {
 }
 /* buttens */
 .btn {
-    position: absolute;
+    border: 2px solid transparent;
+    position: relative;
     color: #ffff;
-    top: 27px;
     background: #D5905C;
-    height: 52px;
-    right: 135px;
-    width: 154px;
-    border-radius: 6px;
     cursor: pointer;
 }
 
@@ -64,10 +67,18 @@ header {
 
 /* Header Text */
 .text {
-    position: absolute;
+    position: relative;
     color: #fff;
-    top: 254px;
-    left: 135px;
+    padding-top: 282px;
+    padding-left: 140px;
+    padding-bottom: 445px;
+}
+
+.right .btn {
+    margin-left: 1331px;
+    padding: 16px 33px;
+    margin-top: 27px;
+    border-radius: 5px;
 }
 
 .text h1 {
@@ -88,13 +99,13 @@ header {
     width: 1200px;
     background: #24252D;
     height: 422px;
-    top: 800px;
+    bottom: 211px;
     position: relative;
 
 }
 
 .connect .box-1 {
-    position: absolute;
+    position: relative;
     height: 1px;
     width: 150px;
     top: 84px;
@@ -104,7 +115,7 @@ header {
 /* End of Connect Boxs */
 
 .connect h1 {
-    position: absolute;
+    position: relative;
     font-size: 37px;
     font-weight: bold;
     top: 59px;
@@ -113,31 +124,47 @@ header {
 }
 /* Input */
 .input-wrap {
-    top: 174px;
-    left: 135px;
-    position: absolute;
+    padding-left: 120px;
+    padding-top: 114px;    
+    position: relative;
 }
 
-.input-wrap .a-1, .a-2 {
-    padding: 2rem;
-    margin-left: 16px;
+.input-wrap .a-1 {
+    padding: 20px 220px 20px 30px;
+    border: 2px solid transparent;
     background: #2F2F36;
-    border: none;
-    width: 440px;
-    height: 73px;
+    border-color: rgb(119, 118, 118);
+    color: #D5905C;
     font-size: 17px;
+}
 
+.input-wrap .a-2 {
+    margin-left: 14px;
 }
 
 .input-wrap-1 {
-    position: absolute;
+    position: relative;
+    padding-left: 120px;
+    margin-top: 20px;
+}
 
+.input-wrap-1 .a-1 {
+    padding: 20px 120px 20px 30px;
+    border: 2px solid transparent;
+    background: #2F2F36;
+    border-color: rgb(119, 118, 118);
+    color: #D5905C;
+    font-size: 17px;
 }
 
 .input-wrap-1 .a-2 {
-    width: 0;
+    margin-left: 14px;
 }
 
+.input-wrap-1 .btn {
+    padding: 22px 73px;
+    margin-left: 16px;
+}
 
 /* End of Input */
 
