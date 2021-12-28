@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+    overflow-x: hidden;
    font-family: 'Barlow', sans-serif;
-   background-position: center;
    height: 1000px;
-   background-repeat: no-repeat;
 }
 
 * {
@@ -43,7 +42,7 @@ header {
 
 .left img {
     position: relative;
-    left: 135px;
+    left: 90px;
     height: 40px;
     top: 31px;
     width: 218px;
@@ -55,6 +54,7 @@ header {
     color: #ffff;
     background: #D5905C;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .btn:hover {
@@ -69,13 +69,13 @@ header {
 .text {
     position: relative;
     color: #fff;
-    padding-top: 282px;
-    padding-left: 140px;
+    padding-top: 235px;
+    padding-left: 90px;
     padding-bottom: 445px;
 }
 
 .right .btn {
-    margin-left: 1331px;
+    margin-left: 1300px;
     padding: 16px 33px;
     margin-top: 27px;
     border-radius: 5px;
@@ -107,33 +107,33 @@ header {
 .connect .box-1 {
     position: relative;
     height: 1px;
-    width: 150px;
-    top: 84px;
-    left: 400px;
+    width: 125px;
+    top: -17px;
+    left: 288px;
     background: #D5905C;
 }
 /* End of Connect Boxs */
 
 .connect h1 {
     position: relative;
-    font-size: 37px;
+    font-size: 30px;
     font-weight: bold;
-    top: 59px;
+    padding-top: 59px;
+    padding-left: 90px;
     color: white;
-    left: 135px;
 }
 /* Input */
 .input-wrap {
-    padding-left: 120px;
-    padding-top: 114px;    
+    padding-left: 90px;
+    padding-top: 66px;    
     position: relative;
 }
 
 .input-wrap .a-1 {
-    padding: 20px 220px 20px 30px;
+    padding: 20px 200px 20px 30px;
     border: 2px solid transparent;
     background: #2F2F36;
-    border-color: rgb(119, 118, 118);
+    border-color: #707070;
     color: #D5905C;
     font-size: 17px;
 }
@@ -144,15 +144,15 @@ header {
 
 .input-wrap-1 {
     position: relative;
-    padding-left: 120px;
+    padding-left: 90px;
     margin-top: 20px;
 }
 
 .input-wrap-1 .a-1 {
-    padding: 20px 120px 20px 30px;
+    padding: 20px 100px 20px 30px;
     border: 2px solid transparent;
     background: #2F2F36;
-    border-color: rgb(119, 118, 118);
+    border-color: #707070;
     color: #D5905C;
     font-size: 17px;
 }
@@ -169,3 +169,562 @@ header {
 /* End of Input */
 
 /* End of connect */
+
+/* About Us */
+
+.about {
+    width: 100%;
+    bottom: 0;
+}
+
+.about img {
+    position: relative;
+    width: 500px;
+    left: 191px;
+}
+
+.about .box {
+    top: 1801px;
+    left: 120px;
+    position: absolute;
+    opacity: 70%;
+    background: #D5905C;
+    width: 240px;
+    height: 223px;
+}
+
+.about .box-1 {
+    position: relative;
+    height: 1px;
+    width: 61px;
+    left: 827px;
+    background: #D5905C;
+    bottom: 7px;
+}
+
+.about h1 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #D5905C;
+    padding-left: 755px;
+    position: relative;
+    margin-top: -407px;
+}
+
+.about h2 {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 750px;
+    position: relative;
+    color: #24252D;
+}
+
+.about p {
+    margin-top: 25px;
+    font-size: 14px;
+    padding-left: 750px;
+    position: relative;
+    color: #666666;
+}
+
+.project img {
+    margin-top: 10px;
+    width: 79px;
+    position: relative;
+    left: 750px;
+}
+
+.project h4 {
+    font-size: 43px;
+    margin-left: 855px;
+    margin-top: -90px;
+    color: #D5905C;
+}
+
+.project h5 {
+    font-size: 22px;
+    margin-left: 855px;
+    margin-top: 7px;
+    color: #24252D;
+    margin-bottom: -15px;
+}
+
+.client img {
+    margin-top: -100px;
+    width: 79px;
+    position: relative;
+    left: 1055px;
+}
+
+.client h6 {
+    font-size: 43px;
+    margin-left: 1155px;
+    margin-top: -90px;
+    color: #D5905C;
+}
+
+.client h5 {
+    font-size: 22px;
+    margin-left: 1155px;
+    margin-top: 7px;
+    color: #24252D;
+}
+/* End of About Us */
+
+/* how-it-works */
+
+.how-it-works h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 235px;
+    color: #D5905C;
+}
+
+.how-it-works p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+    color: #2F2F36;
+}
+
+.opreater {
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.step {
+    margin-top: 15px;
+    display: flex;
+    color: #2F2F36;
+    justify-content: space-around;
+}
+
+.step span {
+    margin-right: 1REM;
+    color: #D5905C;
+}
+
+.opreater .arro {
+    padding-top: 70px;
+    width: 25px;
+}
+
+.step-1  {
+    margin-top: 15px;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: #666666;
+}
+
+/* End of how-it-works */
+
+
+/* OUR CATEGORIES */
+
+.our-categories .box-1 {
+    position: relative;
+    height: 1px;
+    width: 61px;
+    left: 191px;
+    background: #D5905C;
+    bottom: 8px;
+}
+
+.our-categories .box-4 {
+    margin-top: 80px;
+    background: #24252D;
+}
+
+.our-categories .container {
+    margin-bottom: 100px;
+}
+
+.our-categories h1 {
+    font-size: 14px;
+    padding-top: 114px;
+    padding-left: 90px;
+    color: #D5905C;
+}
+
+.our-categories h2 {
+    font-size: 34px;
+    padding-top: 36px;
+    padding-left: 90px;
+    color: white;
+}
+
+.our-categories p {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    padding-left: 900px;
+    position: relative;
+    top: -42px;
+}
+
+.slider-box {
+    width: 50px;
+    height: 500px;
+    margin: 0 20px;
+}
+
+.responsive {
+    padding: 50px;
+    background: #24252D;
+}
+
+
+.slider-box h3 {
+    margin-top: 20px;
+    font-size: 34px;
+    color: white;
+}
+
+
+.slider-box p {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    padding-left: 0;
+    position: relative;
+    top: 15px;
+}
+
+.slick-slide img {
+    width: 430px;
+}
+/* sliders */
+
+
+
+/* End of sliders */
+
+/* End of OUR CATEGORIES */
+
+/* Features */
+
+.main-img img {
+    position: absolute;
+    width: 500px;
+    left: 900px;
+    padding-top: 160px;
+}
+
+
+.main-img .box-1 {
+    
+    left: 860px;
+    top: 121px;
+    position: relative;
+    opacity: 70%;
+    background: #D5905C;
+    width: 240px;
+    height: 295px;
+}
+
+.main-img .box-2 {
+    left: 1336px;
+    bottom: -301px;
+    position: relative;
+    opacity: 70%;
+    background: #D5905C;
+    width: 90px;
+    height: 90px;
+}
+
+.teg h1 {
+    margin-left: 90px;
+    margin-top: -221px;
+    font-size: 14px;
+    color: #D5905C;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.teg .box-1 {
+    position: relative;
+    height: 1px;
+    width: 61px;
+    left: 170px;
+    background: #D5905C;
+    bottom: 8px;
+}
+
+.teg h2 {
+    padding-left: 90px;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.teg p {
+    font-size: 14px;
+    padding-left: 90px;
+    margin-top: 20px;
+    color: #666666;
+}
+
+.seald img {
+    padding-left: 90px;
+    margin-top: 40px;
+}
+
+.seald h1 {
+    font-size: 20px;
+    padding-left: 190px;
+    margin-top: -72px;
+}
+
+.seald p {
+    font-size: 10px;
+    margin-top: 5px;
+    padding-left: 190px;
+}
+.seald-1 img {
+    padding-left: 380px;
+    margin-top: -48px;
+}
+
+.seald-1 h1 {
+    font-size: 20px;
+    padding-left: 470px;
+    margin-top: -72px;
+}
+
+.seald-1 p {
+    font-size: 10px;
+    margin-top: 5px;
+    padding-left: 470px;
+}
+
+/* End of Features */
+
+/* INVESTORS */
+
+.investors .box-3 {
+    padding: 125px;
+    margin-top: 200px;
+    background: #24252D;
+}
+
+.investors h1 {
+    padding-left: 90px;
+    font-size: 14px;
+    color: #D5905C;
+    margin-top: -190px;
+}
+
+.investors .box-1 {
+    position: relative;
+    height: 1px;
+    width: 61px;
+    left: 200px;
+    background: #D5905C;
+    bottom: 8px;
+    
+}
+
+.investors h2 {
+    padding-left: 90px;
+    margin-top: 27px;
+    font-size: 40px;
+    color: white;
+}
+
+.logo img {
+    margin-top: -115px;
+    padding-left: 850px;
+    height: 140px;
+}
+
+/* End of INVESTORS */
+
+/* buyers */
+
+.buyers img {
+    padding-left: 90px;
+    height: 500px;
+    margin-top: 180px;
+}
+
+
+.buyers h1 {
+    text-align: center;
+    padding-left: 467px;
+    margin-top: -408px;
+    font-size: 44px;
+    color: #D5905C;
+}
+
+.buyers p {
+        padding-left: 780px;
+    margin-top: 46px;
+    font-size: 24px
+}
+
+.buyers .btn {
+    left: 780px;
+    padding: 23px 109px;
+}
+
+/* End of buyers */
+
+/* BROKER */
+
+.broker img {
+    padding-left: 825px;
+    height: 500px;
+    margin-top: 242px;
+}
+
+
+.broker h1 {
+    padding-left: 90px;
+    margin-top: -408px;
+    font-size: 44px;
+    color: #D5905C;
+}
+
+.broker p {
+    padding-left: 90px;
+    margin-top: 46px;
+    font-size: 24px
+}
+
+.broker .btn {
+    left: 90px;
+    padding: 23px 109px;
+}
+
+/* End of BROKER */
+
+/* Footer */
+
+footer .box-4 {
+    height: 430px;
+    margin-top: 200px;
+    background: #24252D;
+}
+
+footer .logo-1 img {
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+footer .fb img {
+    height: 20px;
+    margin-left: 160px;
+    margin-top: 44px;
+}
+
+footer .in img {
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer .tw img {
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+footer .lo {
+    margin-top: -305px;
+    margin-left: 500px;
+}
+
+footer .lo p {
+    color: white;
+    font-size: 17px;
+    margin-top: -52px;
+    margin-left: 82px;
+}
+
+footer .lo img {
+    height: 45px;
+}
+
+
+footer .email {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+footer .email a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 32px;
+}
+
+footer .email img {
+    height: 45px;
+    margin-bottom: -22px;
+}
+ 
+footer h3 {
+    font-size: 25px;
+    color: white;
+    margin-left: 924px;
+    margin-top: -120px;
+}
+
+footer input {
+    margin-top: 43px;
+    margin-left: 925px;
+    padding: 15px 75px 15px 25px;
+    border: 2px solid transparent;
+    background: #2F2F36;
+    border-color: #707070;
+    color: #D5905C;
+    font-size: 17px;
+    margin-top: 45px;
+}
+
+footer .btn {
+    padding: 17px 55px;
+    margin-left: 10px;
+}
+
+footer .box-1 {
+    position: relative;
+    height: 1px;
+    width: 1512px;
+    background: #535353;
+    bottom: -95px;
+}
+
+footer .a-5 p {
+    margin-left: 130px;
+    color: white;
+    margin-top: 126px;
+}
+
+.p-1 {
+    font-size: 10px;
+    margin-top: -18px;
+    color: white;
+    margin-left: 78rem;
+}
+
+.p-2 {
+    font-size: 10px;
+    margin-top: -13px;
+    color: white;
+    margin-left: 71rem;
+}
+
+.p-3 {
+    font-size: 10px;
+    margin-top: -12px;
+    color: white;
+    margin-left: 63rem;
+}
+/* End of Footer */
